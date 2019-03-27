@@ -148,6 +148,7 @@ Developed utility to aid in bulk creation/ updating of issues/tickets in a proje
 on Atlassian Jira. Worked on mainly proprietary code management environment. 
 
 
+
 **What timezone will you be in during the coding period?**
 
 IST (Indian Standard Timezone)
