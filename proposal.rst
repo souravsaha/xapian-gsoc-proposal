@@ -199,9 +199,6 @@ new language model named log-logistic in the Xapian project. I have seen the cur
 found out that this is would benefit "Die Zeit - German Newspaper"(searching news articles), "Community Websites"
 (TheyWorkForYou.com), "Email Search Applications" (notmuch, mu and search application),
 "Other Websites"(Debian Website, Debian Wiki Search) and "Search website group" (Library of the University of Cologne). 
-
-
-
 This should improve the quality of the Xapian s/w and provide the above mentioned users
 with an improved version in the near future.
 
