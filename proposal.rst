@@ -81,7 +81,7 @@ About You
 
 .. Tell us a bit about yourself.
 
-I am doing my Masters(Mtech) in Computer Science from ISI Kolkata. Before that, I worked
+I am pursuing M.Tech.(Master of Technology) in Computer Science from ISI Kolkata. Before that, I worked
 for 2.5 years in Oracle as an Applications Engineer, and for 6 months at ServiceNow as a 
 Platform Engineer. I did my B.E. from Jadavpur University in Information Technology during
 2011-2015.
@@ -99,36 +99,39 @@ Background Information
 similar programmes before?  If so, tell us about how it went, and any areas you
 would have liked more help with.**
 
-No, I have not taken any part in GSoc and/or GCI.
+No, I have not taken any part in GSoc and/or GCI. I am applying for GSoc for first time.
 
 **Please tell us about any previous experience you have with Xapian, or other
 systems for indexed text search.**
 
-In Linux operating system I have seen synaptic graphical package manager and the terminal based package manager aptitude
-uses Xapian for search. Also, I have used Lucene library for my research work. 
-
+I am familiar with Lucene, an Apache licenced search engine written in Java.
+I am currently involved in a project in which I am building a retrieval model explainer on top of Lucene. 
+As a user, I am aware Xapian as the search engine within the synaptic package manager used by many GNU/Linux distributions.
 
 **Tell us about any previous experience with Free Software and Open Source
 other than Xapian.**
 
-I have developed Atlassian Jira utility for desktop for bulk insertion/updation of different tracking tickets.
-Also I am familiar with web programming, created a dictionary app with React Javascript library. I have implemented 
-some modules in Lucene library. All of them are there in the github repository. 
+Web programming and created a dictionary app with React Javascript library. I have implemented 
+some modules within the Lucene library system. All of them are there in the github repository. All my contributions are available
+from my github repository at https://github.com/souravsaha.
 
 **What other relevant prior experience do you have (courses taken at college,
 hobbies, holiday jobs, etc)?**
 
-Courses taken at college: Machine Learning, Probability and Stochastic Process, Software Enginnering, Algebra.
-Extensive programming in C++, Java.
-Summer Research Fellowship Programme - 2014, Indian Academy of Sciences
-Advisor: Subhasis Chaudhuri, Prof. of Electrical Engineering, IIT Bombay.
-Internship : Worked on Human pose estimation from streams of videos using OpenCV C++ library. 
-Published one paper entitled with :
-Sourav Saha, Pritha Ganguly, Subhajit Chaudhury, “Vision Based Human Pose
-Estimation for Virtual Cloth Fitting”. Indian Conference on Computer Vision,
-Graphics, and Image Processing (ICVGIP-2014) which is one of the top conferences for
-Computer Vision in India,(ACM Conference).  
+**Courses taken at college**: Machine Learning, Probability and Stochastic Process, Software Enginnering, Algebra.
+Extensive programming in C++, Java. Started learning about Information Retrieval models with hands-on experience of Lucene.
 
+**Summer Research Fellowship Programme - 2014, Indian Academy of Sciences**
+
+**Advisor**: Subhasis Chaudhuri, Prof. of Electrical Engineering, IIT Bombay.
+
+**Internship** : Worked on Human pose estimation from streams of videos using OpenCV C++ library. 
+Published one paper entitled with :
+*“Vision Based Human Pose Estimation for Virtual Cloth Fitting”. Sourav Saha, Pritha Ganguly, Subhajit Chaudhury, 
+Indian Conference on Computer Vision, Graphics, and Image Processing (ICVGIP-2014) which is one of the top conferences for
+Computer Vision in India, (ACM Conference).*  
+
+I have developed an Atlassian Jira utility for bulk insertion/updating of different tracking tickets.
 
 **What development platforms, tools and methods do you prefer to use?**
 
@@ -137,28 +140,30 @@ GNU toolchain, valgrind, underlying operating system.
 **Have you previously worked on a project of a similar scope?  If so, tell us
 about it.**
 
-Project in ServiceNow: Worked on Virtual Agent Designer for chat-bot systems.
+**Project in ServiceNow**: Worked on Virtual Agent Designer for chat-bot systems.
 It's a flow based designer where one can design their own virtual agent conversation
 and automate several processes. The entire source code was in git, have familiarity with
-git based version control system. 
-Project in Oracle: Part of Student Admissions module which helps the admin of universities to create or design a custom application forms.
-Developed Restful apis for student application forms design. Worked on distributed environment where all the developers were working 
+git based version control system.
+
+**Project in Oracle**: Part of Student Admissions module which helps the admin of universities to create or design a custom application forms.
+Developed RESTful apis for student application forms design. Worked on distributed environment where all the developers were working 
 from different parts of the globe. Received pacesetter award for FY2017.
-Developed utility to aid in bulk creation/ updating of issues/tickets in a project tracker based
+
+Developed utility to aid in bulk creation/updating of issues/tickets in a project tracker based
 on Atlassian Jira. Worked on mainly proprietary code management environment. 
 
 
 
 **What timezone will you be in during the coding period?**
 
-IST (Indian Standard Timezone)
+IST (Indian Standard Timezone).
 
 **Will your Summer of Code project be the main focus of your time during the
 program?**
 
-If I qualify/ am selected , I will do it as part of the summer project/ internship that is atleast
-8 weeks in my curricular requirement of the MTech program that I am enrolled in. However, I will be 
-able to continue for the full 13 week period.
+If my proposal is selected, I will do it as part of the summer project/ internship that is atleast 8 weeks 
+in my curricular requirement of the M.Tech program that I am enrolled in. Further, I will be able to continue 
+for the full 13 week period given my prior interest in the work and some initial experience.
 
 **Expected work hours (e.g. Monday–Friday 9am–5pm UTC)**
 
@@ -182,25 +187,27 @@ Motivations
 
 **Why have you chosen this particular project?**
 
-My research interests are in the field of Information Retrieval. I have gone through some lecture materials(victor lavrenko), 
-tutorials and research papers in the field of Information Retrieval. I have started working on the explainer for one of the 
-most popular and robust retrieval system Lucene, which is widely used in academics as well in insdustry. 
-As I had worked on the debugging use of Lucene for information retrieval research I have implemented
-few language models inside the Lucene library. We have submitted a demo paper in SIGIR'19. 
-
+My research interests are in the field of Information Retrieval. I have gone through some lecture materials (Victor Lavrenko), 
+tutorials and research papers in the field of Information Retrieval. I have started working on an "explainer" for Lucene, which is 
+widely used in academics as well as in industry. Our "explainer" is intended to help researchers and engineers provide high-level,
+intuitive explanations of why an IR technique performs the way it does, rather than simply finding out whether it works well or
+poorly. The explainer is implemented as a terminal-based interactive tool built on top of Lucene. An article describing this tool 
+has been submitted as a demo paper to **SIGIR 19**. While working on this explainer, I had a chance to look at and modify the innards of 
+an industry-strength search system. This made me curious about other open source search system used in real-life (as opposed to the ones used for academic 
+research), and I discovered Xapian.
 
 **Who will benefit from your project and in what ways?**
 
 .. For example, think about the likely user-base, what they currently have to
 .. do and how your project will improve things for them.
 
-I hope to contribute to the Xapian code base by bug fixing the term weighting schemes and implementing a
-new language model named log-logistic in the Xapian project. I have seen the current user group of Xapian (from Xapian webpage) and what I 
-found out that this is would benefit "Die Zeit - German Newspaper"(searching news articles), "Community Websites"
-(TheyWorkForYou.com), "Email Search Applications" (notmuch, mu and search application),
-"Other Websites"(Debian Website, Debian Wiki Search) and "Search website group" (Library of the University of Cologne). 
-This should improve the quality of the Xapian s/w and provide the above mentioned users
-with an improved version in the near future.
+I hope to contribute to the Xapian code base by fixing bugs in some of Xapian's term weighting schemes and implementing a
+new language model named log-logistic in the Xapian project. The researchers who proposed the log-logistic model conducted 
+experiments that show that this model works well on news data and catalogue data. Since
+the current user group of Xapian (https://xapian.org/users) includes applications in these categories (e.g., “Die Zeit - German Newspaper”, 
+which uses Xapian for searching news articles, and Websites like TheyWorkForYou.com, http://www.debian.org and http://wiki.debian.org with similar
+requirements), I believe these bug-fixes and the new weighting method would provide a number of Xapian users with more 
+and better options.
 
 
 Project Details
@@ -210,11 +217,30 @@ Project Details
 
 **Describe any existing work and concepts on which your project is based.**
 
-Few scholarly work related to Weighting schemes:
+Traditional explanations of the Language Modelling approach to IR do not
+always explicitly show how the IDF effect is to be incorporated within this
+model. Possibly as a result of this, Xapian implements the following,
+commonly used formula (when using the Jelinek Mercer smoothing model):
 
-The link of the log-logistic model is as follows:
-https://hal.archives-ouvertes.fr/hal-00742020
-It is a simplified variant of DFR model. In the above paper it shows that it gives better result
+Weight of term t in document d = lambda * (tf(q, D) / doc_length ) + (1 - lambda) * ( collection_frequency(q) / collection_size)
+
+Based on my readings (e.g., Lv and Zhai, CIKM 2011), I believe it would be
+better to use the following formula instead:
+
+lambda / (1 - lambda) * ( tf(q, D) * collection_size / doc_length * collection_frequency(q) ) + 1 
+
+Our own preliminary experiments using Lucene with TREC data confirm that
+the second formula produces significantly better retrieval accuracy. I
+would therefore like to implement and test this change within Xapian as
+well.
+
+Relevant scholarly work related to Weighting schemes:
+
+*Stéphane Clinchant, Éric Gaussier. “Retrieval Constraints and Word
+Frequency Distributions - A Log-logistic Model for IR”. Information
+Retrieval Journal, Springer, 2011, 14 (1), pp.5-25 (preprint available from https://hal.archives-ouvertes.fr/hal-00742020 )*.
+
+It is a simplified variant of DFR model. In the above paper it shows that it gives better
 result compared to DFR. In the news data and catalog data it provides competitive performance. 
 
 **Do you have any preliminary findings or results which suggest that your
@@ -222,15 +248,23 @@ approach is possible and likely to succeed?**
 
 The prerequisite statistics collection size, term frequency, wdf, relative term frequency - all
 are already implemented in the Xapian codebase. So, without worrying the major changes in the 
-Xapian indexing model it can be implemented. The final equation of the loglogistic model looks like
+Xapian indexing model it can be implemented. The final equation of the loglogistic model looks like:
+
 x_q * log (1 + c * (x_d * avdl / y) / ( F / N))
+
 where 
 c = some constant
+
 x_d = number of occurences of the term in document d
+
 x_q = number of occurences of the term in query q
+
 avdl = average length of the document in the collection
+
 y = length of the document d
+
 F = number of occurences of the term in the whole collection
+
 N = number of documents 
 
 **What other approaches to have your considered, and why did you reject those in
@@ -242,16 +276,16 @@ extension to DFR model.
 **Please note any uncertainties or aspects which depend on further research or
 investigation.**
 
-All other major weighting schemes are there in Xapian codebase. This language model is majorly an extension of
+All other major weighting schemes are there in Xapian codebase. This model is majorly an extension of
 the popular DFR model. DFR model is already there in Xapian code structure. Therefore there is no major uncertainties
-implementing this language model. 
+implementing this language model as this is just a simplified version of DFR. 
 
 **How useful will your results be when not everything works out exactly as
 planned?**
 
-Loglogistic model will be a child class of Weight class and it will inherit all the properties of 
+Loglogistic model will be a child class of the Weight class and it will inherit all the properties of 
 it. Inside the child class i.e the Loglogistic class, first we will have default and parameterized 
-constructors. A method to initialize all the parameter of the model. Serialize and unserialize method 
+constructors. A method to initialize all the parameter of the model. Serialize and unserialize methods 
 to serialize and unserialize the parameters. Also the get_sum_part and get_max_part apis to compute the
 total score by evaluating each query. 
 
@@ -304,47 +338,73 @@ Project Timeline
 .. any university classes or exams, vacations, etc), make sure you include them
 .. in your project timeline.
 
-1st 4 week
+**1st 4 week**
+    
     1st week
-    - Bug fixing in LM-JM model(incorporate idf)
-    - Run CLEF, FIRE dataset
-    2nd week
-    - Run NTCIR dataset 
-    - As it has catalog userbase we can run TEL dataset also
-    3rd week
-    - PR review
-    - done changes as suggested by PR review
-    - raise PR review again and merge the code
-    4th week
-    - Bug fixing in LM-DIR model(incorporate idf)
-    - Run CLEF, FIRE dataset
 
-2nd 4 week
-    1st week
-    - Run NTCIR dataset
-    - Run on TEL dataset
+    - Bug fixing in LM-JM model(incorporate idf)
+
+    - Test, evaluate and compare retrieval accuracy on CLEF, FIRE datasets
+
     2nd week
+
+    - Test, evaluate and compare retrieval accuracy on NTCIR datasets 
+
+    - As it has catalog userbase we can run TEL dataset also
+
+    3rd week
+
+    - PR review
+
+    - done changes as suggested by PR review
+
+    - raise PR review again and merge the code
+
+    4th week
+
+    - Bug fixing in LM-DIR model(incorporate idf)
+
+    - Test, evaluate and compare retrieval accuracy on CLEF, FIRE datasets
+
+**2nd 4 week**
+
+    1st week
+
+    - Test, evaluate and compare retrieval accuracy on NTCIR, TEL datasets
+
+    2nd week
+
     - PR review
     - code changes as suggested by PR review
     - raise a PR review again and merged
+
     3rd week
+
     - Start coding Log-logistic Model
-    - Run CLEF and, FIRE dataset
-3rd 4 week
+    - Test, evaluate and compare retrieval accuracy on CLEF, FIRE datasets
+
+**3rd 4 week**
+
     1st week
+
     - PR review
     - code changes as suggested by PR review
     - raise PR review and merge it
+
     2nd week
-    - Run NTCIR dataset
-    - Run TEL dataset
+
+    - Test, evaluate and compare retrieval accuracy on NTCIR, TEL datasets
+
     3rd week
+
     - PR review 
     - code changes and merge
-    - write code for MAP, precision
+    
     4th week
+
     - PR review and code merge of IR evaluation
     - document the LM model and Loglogistic model properly. 
+
 Previous Discussion of your Project
 -----------------------------------
 
